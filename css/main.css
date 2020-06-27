@@ -1,0 +1,105 @@
+/***  BASE STYLES  ***/
+
+
+/***  BODY  ***/
+
+body{
+    background-color: #e8e8e8;
+    
+}
+
+#vision-board{
+    width: 1200px;
+    height: 850px;
+    text-align: center;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; 
+    overflow: auto;
+
+/***  CENTER BOTH BACKGROUNDS***/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)    
+}
+
+/***  BOXES  ***/
+
+.block{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block{
+    height: 210px; 
+    padding-top: 25px;
+
+}
+
+.large-block{
+    height: 430px;
+    padding-top: 60px;
+}
+
+/***  BOX STYLING  ***/
+
+.left{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.wh-bg{
+    background-color: #ffffff;
+}
+
+.gr-bg{
+    background-color: #3b3b3b;
+}
+
+.v-board span{
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.v-board{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/***  TEXT STYLING  ***/
+
+.highlight{
+    background-color: #fff44f;
+    text-transform: uppercase;
+    font-size: 20px;  
+}
+
+.pad-left{
+    margin-left: 15px;
+}
+
+.pad-right{
+    margin-right: 15px;
+}
+
+p strong{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
